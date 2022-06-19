@@ -14,7 +14,7 @@ import java.math.BigDecimal;
  */
 public class CreditCard extends CashCard {
 
-    private Logger logger = LoggerFactory.getLogger(CreditCard.class);
+    private final Logger logger = LoggerFactory.getLogger(CreditCard.class);
 
     public CreditCard(String cardNo, String cardDate) {
         super(cardNo, cardDate);

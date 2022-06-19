@@ -16,7 +16,7 @@ import java.util.List;
  */
 public abstract class BankCard {
 
-    private Logger logger = LoggerFactory.getLogger(BankCard.class);
+    private final Logger logger = LoggerFactory.getLogger(BankCard.class);
 
     private String cardNo;   // 卡号
     private String cardDate; // 开卡时间

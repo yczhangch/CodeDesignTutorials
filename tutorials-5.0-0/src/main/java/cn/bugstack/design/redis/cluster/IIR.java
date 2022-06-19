@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class IIR {
 
-    private Logger logger = LoggerFactory.getLogger(IIR.class);
+    private final Logger logger = LoggerFactory.getLogger(IIR.class);
 
     private Map<String, String> dataMap = new ConcurrentHashMap<String, String>();
 

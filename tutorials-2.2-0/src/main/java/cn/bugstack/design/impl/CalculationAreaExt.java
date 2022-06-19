@@ -9,6 +9,7 @@ package cn.bugstack.design.impl;
  */
 public class CalculationAreaExt extends CalculationArea {
 
+    // 通过继承，修改成自己需要的业务，符合开闭原则
     private final static double π = 3.141592653D;
 
     @Override

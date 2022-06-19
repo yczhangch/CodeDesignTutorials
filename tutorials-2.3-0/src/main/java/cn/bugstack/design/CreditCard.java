@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class CreditCard extends CashCard {
 
-    private Logger logger = LoggerFactory.getLogger(CashCard.class);
+    private final Logger logger = LoggerFactory.getLogger(CashCard.class);
 
     @Override
     public String withdrawal(String orderId, BigDecimal amount) {

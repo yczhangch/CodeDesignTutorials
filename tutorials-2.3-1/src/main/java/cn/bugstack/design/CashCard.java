@@ -14,12 +14,13 @@ import java.math.BigDecimal;
  */
 public class CashCard extends BankCard {
 
-    private Logger logger = LoggerFactory.getLogger(CashCard.class);
+    private final Logger logger = LoggerFactory.getLogger(CashCard.class);
 
     public CashCard(String cardNo, String cardDate) {
         super(cardNo, cardDate);
     }
 
+    @Override
     boolean rule(BigDecimal amount) {
         return true;
     }

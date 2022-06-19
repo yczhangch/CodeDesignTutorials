@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class EGM {
 
-    private Logger logger = LoggerFactory.getLogger(EGM.class);
+    private final Logger logger = LoggerFactory.getLogger(EGM.class);
 
     private Map<String, String> dataMap = new ConcurrentHashMap<String, String>();
 

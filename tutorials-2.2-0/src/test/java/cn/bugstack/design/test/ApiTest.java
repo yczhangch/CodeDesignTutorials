@@ -1,7 +1,6 @@
 package cn.bugstack.design.test;
 
 import cn.bugstack.design.ICalculationArea;
-import cn.bugstack.design.impl.CalculationArea;
 import cn.bugstack.design.impl.CalculationAreaExt;
 import org.junit.Test;
 

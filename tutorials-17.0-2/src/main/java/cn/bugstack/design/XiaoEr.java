@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class XiaoEr {
 
-    private Logger logger = LoggerFactory.getLogger(XiaoEr.class);
+    private final Logger logger = LoggerFactory.getLogger(XiaoEr.class);
 
     private List<ICuisine> cuisineList = new ArrayList<ICuisine>();
 

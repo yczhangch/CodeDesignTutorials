@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class CashCard {
 
-    private Logger logger = LoggerFactory.getLogger(CashCard.class);
+    private final Logger logger = LoggerFactory.getLogger(CashCard.class);
 
     /**
      * 提现
@@ -49,7 +49,7 @@ public class CashCard {
      */
     public List<String> tradeFlow() {
         logger.info("交易流水查询成功");
-        List<String> tradeList = new ArrayList<String>();
+        List<String> tradeList = new ArrayList<>();
         tradeList.add("100001,100.00");
         tradeList.add("100001,80.00");
         tradeList.add("100001,76.50");

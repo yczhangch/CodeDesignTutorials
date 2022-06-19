@@ -19,7 +19,7 @@ import java.util.Date;
  */
 public class ApiTest {
 
-    private Logger logger = LoggerFactory.getLogger(ApiTest.class);
+    private final Logger logger = LoggerFactory.getLogger(ApiTest.class);
 
     @Test
     public void test() {

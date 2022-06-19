@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  */
 public class GuangDongCook implements ICook {
 
-    private Logger logger = LoggerFactory.getLogger(ICook.class);
+    private final Logger logger = LoggerFactory.getLogger(ICook.class);
 
     @Override
     public void doCooking() {

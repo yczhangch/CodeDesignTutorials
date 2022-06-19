@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  */
 public class MQEventListener implements EventListener {
 
-    private Logger logger = LoggerFactory.getLogger(MQEventListener.class);
+    private final Logger logger = LoggerFactory.getLogger(MQEventListener.class);
 
     @Override
     public void doEvent(LotteryResult result) {

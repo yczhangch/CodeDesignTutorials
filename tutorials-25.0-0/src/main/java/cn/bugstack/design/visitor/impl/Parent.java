@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  */
 public class Parent implements Visitor {
 
-    private Logger logger = LoggerFactory.getLogger(Parent.class);
+    private final Logger logger = LoggerFactory.getLogger(Parent.class);
 
     @Override
     public void visit(Student student) {

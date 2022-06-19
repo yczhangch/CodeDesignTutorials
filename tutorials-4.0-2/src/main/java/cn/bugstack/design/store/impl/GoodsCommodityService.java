@@ -18,7 +18,7 @@ import java.util.Map;
  */
 public class GoodsCommodityService implements ICommodity {
 
-    private Logger logger = LoggerFactory.getLogger(GoodsCommodityService.class);
+    private final Logger logger = LoggerFactory.getLogger(GoodsCommodityService.class);
 
     private GoodsService goodsService = new GoodsService();
 
